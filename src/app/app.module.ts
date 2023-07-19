@@ -16,6 +16,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MessagesComponent } from './components/messages/messages.component';
 import { environment } from 'src/environments/environment';
 import { MomentComponent } from './components/pages/moment/moment.component';
+import { EditMomentComponent } from './components/pages/edit-moment/edit-moment.component';
 
 @NgModule({
   declarations: [
@@ -28,8 +29,8 @@ import { MomentComponent } from './components/pages/moment/moment.component';
     MomentFormComponent,
     MessagesComponent,
     MomentComponent,
-
-    ],
+    EditMomentComponent,
+ ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -37,7 +38,7 @@ import { MomentComponent } from './components/pages/moment/moment.component';
     FormsModule,
     ReactiveFormsModule,
     FontAwesomeModule,
-  
+
   ],
   providers: [],
   bootstrap: [AppComponent]

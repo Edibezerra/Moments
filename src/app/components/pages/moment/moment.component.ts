@@ -1,7 +1,7 @@
 import { MessagesService } from './../../../services/messages.service';
 
 import { Component, OnInit } from '@angular/core';
-import { Route, ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 
 import { MomentService } from 'src/app/services/moment.service';
@@ -9,7 +9,6 @@ import { MomentService } from 'src/app/services/moment.service';
 import { Moment } from 'src/app/Moment';
 
 import { environment } from 'src/environments/environment';
-import { Interpolation } from '@angular/compiler';
 
 import { faTimes, faEdit } from '@fortawesome/free-solid-svg-icons';
 
