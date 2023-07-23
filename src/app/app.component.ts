@@ -9,7 +9,7 @@ import { environment } from './../environments/environment';
 export class AppComponent {
 
   constructor() {
-    console.log(environment.production); // Logs false for development environment
+    console.log(environment.production); 
   }
   title = 'moments';
 }

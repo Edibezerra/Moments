@@ -15,7 +15,7 @@ const routes: Routes = [
   {path:'moments/new', component: NewMomentComponent},
   {path:'moments/edit/:id', component: EditMomentComponent},
   {path:'moments/:id', component: MomentComponent}
-];
+  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
